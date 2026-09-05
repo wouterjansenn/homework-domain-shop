@@ -200,3 +200,14 @@ div button {
 
 
 /*///////////// 3.5 Footer /////////////*/
+
+footer p {
+    max-width: 100%;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    padding: 20px;
+    text-align: center;
+
+}
