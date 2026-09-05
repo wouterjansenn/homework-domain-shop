@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
+/*grijs #899CA0*/
+/*donkergroen #1C2B32)*/
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+* a {
+    color: #899CA0;
+    text-decoration: underline;
+}
+
+* a:hover {
+    text-decoration: none;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+
+h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.faq-section h3 {
+    text-align: center;
+    padding: 25px 0 25px 0;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+
+/*///////////// 3.1 Header /////////////*/
+.domain-header {
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 200px;
+    vertical-align: top;
+}
+
+.domain-header p {
+    margin: 10px 0 25px 0;
+
+}
+
+
+header {
+    background-image: url("../assets/images/mountains.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.domain-free {
+    text-align: center;
+    border-radius: 30px 5px 5px 30px;
+    width: 250px;
+    height: 50px;
+    margin: -8px;
+    border: 2px solid black;
+    color: black;
+    background-color: transparent;
+}
+
+
+div button {
+    text-align: center;
+    border-radius: 5px 30px 30px 5px;
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: 0 solid black;
+}
+
+/*///////////// 3.2 Testimonial /////////////*/
+
+.review-quote {
+    position: relative;
+    padding: 50px 50px;
+    margin: 50px 0;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.customer-opinion-section h2 {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.customer-opinion-image {
+    max-width: 44px;
+    max-height: 44px;
+    border-radius: 50%;
+}
+
+.customer-opinion-image + cite {
+    display: inline-block;
+    padding: 10px 10px 10px 50px;
+    font-style: italic;
+}
+
+.punctuation-img {
+    position: absolute;
+    left: 60px;
+    top: 30px;
+    padding: 20px;
+}
+
+.review-quote p {
+    padding: 0 10px 25px 75px;
+    font-size: 15px;
+}
+
+/*///////////// 3.3 Support /////////////*/
+
+.customer-support-section img {
+    width: 100%;
+    border-radius: 1%;
+}
+
+.customer-support-section a {
+    color: #899CA0;
+}
+
+.customer-support-section p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+.customer-support-section h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+
+.customer-support-section button {
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    border: 0 solid black;
+    padding: 15px 25px;
+
+}
+
+/*///////////// 3.4 Faq /////////////*/
+
+.faq-details {
+
+    line-height: 50px;
+}
+
+.faq-details > p {
+    background-color: #899CA0;
+    color: white;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+.faq-section {
+    cursor: pointer;
+}
+
+
+/*///////////// 3.5 Footer /////////////*/
